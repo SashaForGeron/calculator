@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/poloca"
+        android:layout_width="431dp"
+        android:layout_height="32dp"
+        android:background="#39a802"
+        android:foreground="#39a802"
+        app:srcCompat="@android:drawable/bottom_bar"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <EditText
+        android:id="@+id/edText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:translationX="-5dp"
+        android:translationY="0dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <EditText
+        android:id="@+id/edText2"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:translationX="200dp"
+        android:translationY="-48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#dedad9"
+        android:onClick="onClick"
+        android:text="+"
+        android:textColor="#39a802"
+        android:textSize="20dp"
+        android:translationX="0dp"
+        android:translationY="-40dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/btnRaz"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#dedad9"
+        android:onClick="onClick"
+        android:text="-"
+        android:textColor="#39a802"
+        android:textSize="20dp"
+        android:translationX="103dp"
+        android:translationY="-88dp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/btnUmn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#dedad9"
+        android:onClick="onClick"
+        android:text="*"
+        android:textColor="#39a802"
+        android:textSize="20dp"
+        android:translationX="204dp"
+        android:translationY="-136dp"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#dedad9"
+        android:onClick="onClick"
+        android:text="/"
+        android:textColor="#39a802"
+        android:textSize="20dp"
+        android:translationX="307dp"
+        android:translationY="-185dp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <TextView
+        android:id="@+id/textRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Решение:"
+        android:textSize="20dp"
+        android:translationX="0dp"
+        android:translationY="-180dp" />
+</LinearLayout>
